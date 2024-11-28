@@ -8,18 +8,18 @@
     Title="SfirleaAndreiBogdanLab7">
 
     <TabBar>
-             <ShellContent
-                Title="Home"
+        <ShellContent
+                Title="Welcome"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage" />
-             <ShellContent
-                Title="Shopping Lists"
-                ContentTemplate="{DataTemplate local:MainPage}"
-             />
-            <ShellContent
+        <ShellContent
                 Title="About"
                 ContentTemplate="{DataTemplate local:AboutPage}"
             />
+        <ShellContent
+                Title="My Shopping Lists"
+                ContentTemplate="{DataTemplate local:ListEntryPage}"
+        />
     </TabBar>
 
 </Shell>
